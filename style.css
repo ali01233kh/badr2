@@ -1,0 +1,68 @@
+/* ملف CSS لتنسيق موقع بدر العريفي */
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+h1 {
+    color: #2e3a59;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+    text-align: center;
+}
+
+.styled-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.colored-text {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img, video {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
